@@ -1,0 +1,37 @@
+{
+  "name": "anv",
+  "version": "1.0.0-alpha.0",
+  "description": "Any Node Version - a node version switcher (built in electron)",
+  "main": "main.js",
+  "scripts": {
+    "test": "tape test/*-test.js",
+    "postinstall": "electron-rebuild --pre-gyp-fix --force"
+  },
+  "keywords": [
+    "node",
+    "version",
+    "manager",
+    "switcher",
+    "electron"
+  ],
+  "author": "Aaron Madsen",
+  "license": "MIT",
+  "dependencies": {
+    "configr8": "1.0.0-alpha.2",
+    "download": "^5.0.3",
+    "electron": "^1.3.5",
+    "userhome": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "electron-rebuild": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amadsen/anv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amadsen/anv/issues"
+  },
+  "homepage": "https://github.com/amadsen/anv#readme"
+}
