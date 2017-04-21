@@ -1,5 +1,7 @@
+.DS_store
 .idea
 *.iml
 .project
 node_modules
 build
+npm-debug.log
